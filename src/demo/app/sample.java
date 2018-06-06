@@ -70,9 +70,7 @@ public class sample
 	        headerFont.setFontHeightInPoints((short) 14);
 	        headerFont.setColor(IndexedColors.RED.getIndex());
 	        
-	     // Create a CellStyle with the font
-	        CellStyle headerCellStyle = workbook.createCellStyle();
-	        headerCellStyle.setFont(headerFont);
+	     
 	        
 	     // Create a Row
 	        Row headerRow = sheet.createRow(0);
